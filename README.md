@@ -92,8 +92,3 @@ class DateDisplay extends StatelessWidget {
 **Contributing / Notes**
 - **File:**: `custom_date_parser.dart` — drop into your `lib/` folder (or import directly).
 - **Testing:**: Add unit tests with representative inputs (ISO, slash, dash, text, compact, RFC) to validate behavior before relying on it in production.
-
-If you'd like, I can also:
-- add unit tests that cover the common formats;
-- refactor the API to return `DateTime?` instead of a string;
-- or add a small Flutter demo showing the parser handling different incoming formats.
